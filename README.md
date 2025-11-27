@@ -27,9 +27,7 @@ What suggestions do you have for next steps? Look into other company stock price
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- https://github.com/zaboush/Module_20_Assignment_20p1/blob/main/Netflix_Stock.ipynb
 
 
 ##### Contact and Further Information
