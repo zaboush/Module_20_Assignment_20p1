@@ -20,7 +20,7 @@ What methods are we using to answer the question? In this project I have been us
 3-	Time series analysis such as ARIMAX: ARIMAX (Autoregressive Integrated Moving Average with Exogenous variables) is a statistical model used for time series forecasting that extends the ARMA model by including external factors. It predicts a dependent variable using its own past values (Autoregressive), past forecast errors (Moving Average), and differencing to make the series stationary (Integrated). The "Exogenous" (X) component incorporates external variables that can influence the target variable, making it more accurate for complex systems like forecasting financial markets. 'X_scaled_train' and 'X_scaled_test' will be used as exogenous variables for ARIMA-X model, then define and train an ARIMA-X model using the same (p, d, q) orders as the ARIMA model and 'X_scaled_train'. Subsequently, make predictions on the test set using 'X_scaled_test', and finally, evaluate the ARIMA-X model's performance with MSE and R-squared, visualize predictions against actual values, and summarize findings.
 
 #### Results
-### Optimized Model Performance Summary
+#### Optimized Model Performance Summary
 
 | Model                       | MSE (Test Set) | R-squared (Test Set) |
 | :-------------------------- | :------------- | :------------------- |
@@ -28,7 +28,7 @@ What methods are we using to answer the question? In this project I have been us
 | **Optimized SVR**           | 0.0191         | 0.9642              |
 | **ARIMA-X**                 | 0.0912         | 0.8286              |
 
-### Key Findings
+#### Key Findings
 
 *   **Optimized SVR's as the Superior Performer**: The optimized SVR model significantly outperforms both the optimized Decision Tree and the ARIMA-X models. With an exceptionally low Mean Squared Error (MSE) of '0.0191' and an R-squared (R2) score of '0.9642' on the test set, optimized SVR explains most of the variance in the scaled 'Close' price.
 
