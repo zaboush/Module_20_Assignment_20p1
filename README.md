@@ -39,11 +39,9 @@ What methods are we using to answer the question? In this project I have been us
 *   **Impact of Exogenous Variables**: The inclusion of exogenous variables (Open, & Volume) in the ARIMA-X model played a crucial role in its outstanding performance, highlighting the value of incorporating related financial metrics when forecasting stock prices.
 
 #### Next steps
-What suggestions do you have for next steps? Look into other company stock price prediction such as Qualcomm and try to incorporate other input features like technical indications that may includes RSI, MACD, or Bollinger Bands.
+What suggestions do you have for next steps? Based on the above evaluations, the **Optimized SVR model is the clear winner** and should be considered the primary candidate for deployment for predicting Netflix's 'Close' price. Its ability to accurately capture the time-series dynamics makes it highly robust and precise for this task. The ARIMA-X model also provides a very strong performance and could serve as a valuable alternative or ensemble component. However, to further enhance the model we can look into other company stock price prediction such as Qualcomm and try to incorporate other input features like technical indications that may includes RSI, MACD, or Bollinger Bands.
 
 #### Outline of project
 
 - https://github.com/zaboush/Module_20_Assignment_20p1/blob/main/Netflix_Stock.ipynb
 
-
-##### Contact and Further Information
